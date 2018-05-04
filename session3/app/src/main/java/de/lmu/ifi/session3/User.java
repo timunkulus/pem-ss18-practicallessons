@@ -6,7 +6,7 @@ public class User {
     private String lastName;
 
     public User() {
-
+        // empty constructor needed for firebase class conversions!
     }
 
     public User(String firstName, String lastName) {
