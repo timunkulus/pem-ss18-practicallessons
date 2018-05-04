@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.lmu.ifi.session3.FirebaseActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"/>
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lastname"/>
+    <Button
+        android:id="@+id/storeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to db"/>
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+
+    <TextView
+        android:id="@+id/dbFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firstname from db"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/dbLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lastname from db"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>

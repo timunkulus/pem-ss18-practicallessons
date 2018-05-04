@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.lmu.ifi.session2.AccelerometerFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Demo"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/sensorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No sensor data"
+        android:textSize="20sp"/>
+
+</LinearLayout>
